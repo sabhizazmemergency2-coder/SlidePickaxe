@@ -1,0 +1,5 @@
+{
+  "config.slowpickaxe.title": "Slow Pickaxe Animation",
+  "config.slowpickaxe.option.swingSpeedMultiplier": "Multiplicateur de lenteur",
+  "config.slowpickaxe.option.swingSpeedMultiplier.tooltip": "Multiplie la durée de l'animation (1 = normal, 10 = très lent)"
+}

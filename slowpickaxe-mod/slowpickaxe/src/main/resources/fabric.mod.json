@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "slowpickaxe",
+  "version": "${version}",
+  "name": "Slow Pickaxe Animation",
+  "description": "Ralentit l'animation de swing de la pioche",
+  "authors": ["Toi"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.slowpickaxe.SlowPickaxeMod"],
+    "modmenu": ["com.slowpickaxe.config.ModMenuIntegration"]
+  },
+  "mixins": ["slowpickaxe.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

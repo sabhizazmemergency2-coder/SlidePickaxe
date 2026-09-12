@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.slowpickaxe.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HandSwingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
